@@ -1,0 +1,26 @@
+ncvhdl: 06.11-s008: (c) Copyright 1995-2007 Cadence Design Systems, Inc.
+DEFINE INVx1 /afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1
+|
+ncvhdl: *W,DLCPTH (/afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib,18): cds.lib Invalid path '/afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1' (cds.lib command ignored).
+TOOL:	ncvhdl	06.11-s008: Started on Sep 21, 2016 at 17:40:00 EDT
+ncvhdl
+    -messages
+    -linedebug
+    -cdslib /afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib
+    -hdlvar /afs/umbc.edu/users/a/b/abv1/home/cadence/hdl.var
+    -smartorder
+    alu_4_test.vhdl
+
+DEFINE INVx1 /afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1
+|
+ncvhdl_p: *W,DLCPTH (/afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib,18): cds.lib Invalid path '/afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1' (cds.lib command ignored).
+alu_4_test.vhdl:
+	errors: 0, warnings: 0
+DEFINE INVx1 /afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1
+|
+ncvhdl_cg: *W,DLCPTH (/afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib,18): cds.lib Invalid path '/afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1' (cds.lib command ignored).
+VHDL.ALU_4_TEST (entity):
+	streams: 1, words: 38
+VHDL.ALU_4_TEST:TEST (architecture):
+	streams: 2, words: 2135
+TOOL:	ncvhdl	06.11-s008: Exiting on Sep 21, 2016 at 17:40:00 EDT  (total: 00:00:00)

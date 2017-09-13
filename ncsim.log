@@ -1,0 +1,17 @@
+ncsim: 06.11-s008: (c) Copyright 1995-2007 Cadence Design Systems, Inc.
+DEFINE INVx1 /afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1
+|
+ncsim: *W,DLCPTH (/afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib,18): cds.lib Invalid path '/afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1' (cds.lib command ignored).
+TOOL:	ncsim	06.11-s008: Started on Sep 21, 2016 at 17:43:56 EDT
+ncsim
+    -input ncsim.run
+    -messages
+    -cdslib /afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib
+    -hdlvar /afs/umbc.edu/users/a/b/abv1/home/cadence/hdl.var
+    alu_4_test
+
+Loading snapshot vhdl.alu_4_test:test .................... Done
+ncsim> run 180 ns
+Ran until 180 NS + 0
+ncsim> exit
+TOOL:	ncsim	06.11-s008: Exiting on Sep 21, 2016 at 17:43:56 EDT  (total: 00:00:00)

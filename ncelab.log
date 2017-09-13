@@ -1,0 +1,38 @@
+ncelab: 06.11-s008: (c) Copyright 1995-2007 Cadence Design Systems, Inc.
+DEFINE INVx1 /afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1
+|
+ncelab: *W,DLCPTH (/afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib,18): cds.lib Invalid path '/afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1' (cds.lib command ignored).
+TOOL:	ncelab	06.11-s008: Started on Sep 21, 2016 at 17:40:03 EDT
+ncelab
+    -messages
+    -access rwc
+    -cdslib /afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib
+    -hdlvar /afs/umbc.edu/users/a/b/abv1/home/cadence/hdl.var
+    alu_4_test
+
+ncelab: *W,ARCMRA: Elaborating the VHDL.ALU_4_TEST:TEST, MRA (most recently analyzed) architecture.
+	Elaborating the design hierarchy:
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_1@mux_4(structural):U1) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_1@mux_4(structural):U2) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_1@mux_4(structural):U3) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_2@mux_4(structural):U1) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_2@mux_4(structural):U2) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_2@mux_4(structural):U3) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_3@mux_4(structural):U1) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_3@mux_4(structural):U2) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_3@mux_4(structural):U3) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_4@mux_4(structural):U1) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_4@mux_4(structural):U2) with design unit (VHDL.MUX2:STRUCTURAL).
+ncelab: *W,CUDEFB: default binding occurred for component instance (:alu_4_test(test):alu_4_1@alu_4(structural):mux4_4@mux_4(structural):U3) with design unit (VHDL.MUX2:STRUCTURAL).
+DEFINE INVx1 /afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1
+|
+ncvhdl_cg: *W,DLCPTH (/afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib,18): cds.lib Invalid path '/afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1' (cds.lib command ignored).
+	Building instance specific data structures.
+	Design hierarchy summary:
+		             Instances  Unique
+		Components:        141      12
+		Default bindings:   12      11
+		Processes:         116       9
+		Signals:            88      19
+	Writing initial simulation snapshot: VHDL.ALU_4_TEST:TEST
+TOOL:	ncelab	06.11-s008: Exiting on Sep 21, 2016 at 17:40:03 EDT  (total: 00:00:00)

@@ -1,0 +1,20 @@
+DEFINE INVx1 /afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1
+|
+ncvhdl_cg: *W,DLCPTH (../cds.lib,18): cds.lib Invalid path '/afs/umbc.edu/users/a/b/abv1/home/cadence/lab2/INVx1' (cds.lib command ignored).
+TOOL:	ncvhdl_cg	06.11-s008: Started on Sep 21, 2016 at 13:40:47 EDT
+ncvhdl_cg
+    -NOCOPYRIGHT
+    -NOVITALACCL
+    -MESSAGES
+    -CDSLIB /afs/umbc.edu/users/a/b/abv1/home/cadence/cds.lib
+    -HDLVAR /afs/umbc.edu/users/a/b/abv1/home/cadence/hdl.var
+    -MESSAGES
+    -LINEDEBUG
+    -IMPLICIT vhdl
+    -XHANDOFF vhdl
+    -XHANDOFF vhdl
+    VHDL.ALU_4:STRUCTURAL
+
+VHDL.ALU_4:STRUCTURAL (architecture):
+	streams: 3, words: 2726
+TOOL:	ncvhdl_cg	06.11-s008: Exiting on Sep 21, 2016 at 13:40:48 EDT  (total: 00:00:01)
